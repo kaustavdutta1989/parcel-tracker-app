@@ -5,6 +5,9 @@ values 				(1L, 	now(), 			'owner01', 		'Owner Details', 		true);
 insert into guest 	(id, 	checkindate, 	name, 			details, 				ischeckedin)
 values 				(2L, 	now(), 			'owner02', 		'Owner Details', 		true);
 
+insert into guest 	(id, 	checkindate, 	name, 			details, 				ischeckedin)
+values 				(3L, 	now(), 			'owner03', 		'Owner Details', 		false);
+
 -- INSERT PARCELS FOR GUESTS WITH OWNER <= GUEST NAME
 
 -- GUEST 1 PARCELS
